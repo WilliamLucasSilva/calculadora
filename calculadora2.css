@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+main{
+    border: 1px rgb(155, 155, 155) solid;
+    padding: 10px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#visor{
+    border: 1px rgb(155, 155, 155) solid;
+    border-radius: 10px;
+    height: 60px;
+    font-size: 40px;
+    position: relative;
+}
+
+span{
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#visor:active{
+    border: 1px #5893ff solid;
+}
+
+#botoes{
+    margin-top: 15px;
+}
+
+button{
+    position: relative;
+    text-align: center;
+    width: 70px;
+    height: 50px;
+    font-size: 40px;
+    display: inline-block;
+    background-color: #eeeeee;
+    margin: 3px 2px 3px 2px;
+    border-radius: 5px;
+}
+
+.operacao{
+    background-color: #c2c2c2;
+}
+
+.resultado{
+    background-color: #316ad4;
+    color: #fff;
+}
+
+.numeros:active{
+    border: 1.9px #464646 solid;
+    box-shadow: 3px 3px 3px rgb(177, 177, 177);
+}
+
+.operacao:active{
+    border: 1.9px #000000 solid;
+    box-shadow: 3px 3px 3px rgb(177, 177, 177);
+}
+
+.resultado:active{
+    border: 1.9px #0f41a0 solid;
+    box-shadow: 3px 3px 3px rgb(27, 53, 126);
+}
